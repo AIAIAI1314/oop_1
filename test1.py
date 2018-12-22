@@ -6,8 +6,8 @@
 # @Desc  : demo
 
 
-def fun():
+def doc():
     '''This is a test project'''
-    help(fun)
-    fun.__doc__
-fun()
+    help(doc)
+    doc.__doc__
+doc()
