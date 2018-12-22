@@ -5,4 +5,9 @@
 # @Date  : 2018/12/23
 # @Desc  : demo
 
-print("helloworld")
+
+def fun():
+    '''This is a test project'''
+    help(fun)
+    fun.__doc__
+fun()
