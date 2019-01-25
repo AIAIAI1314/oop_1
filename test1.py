@@ -7,7 +7,13 @@
 
 
 def doc():
-    '''This is a test project'''
+    '''
+    This is a test project
+    '''
     help(doc)
     doc.__doc__
 doc()
+
+class hero():
+    pass
+wizard = hero()
